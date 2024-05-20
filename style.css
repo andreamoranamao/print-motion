@@ -76,6 +76,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+    padding: .5em;
 }
 
 p1{
@@ -114,7 +115,6 @@ p5{
     margin-bottom: 40px;
     font-size: 14px;
     color: #fff;
-    padding: 0 100px;
     width: auto;
     height: auto;
     text-align: center;
@@ -154,11 +154,14 @@ p6{
 }
 
 .content{
-    height: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
 }
 
 .sau{
@@ -172,11 +175,12 @@ p6{
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    
 }
 
 .box-container .box {
     height: 15rem;
-    width: 19rem;
+    width: 17rem;
     background: #101010;
     text-align: center;
     border-radius: 1rem;
@@ -210,6 +214,9 @@ s
 
 .about {
     background: #363636;
+    padding-right: 10em;
+    padding-left: 10em;
+    height: auto;
 }
 
 .price{
@@ -226,6 +233,10 @@ s
     
 }
 
+#mailto {
+    color: white;
+}
+
 @media (max-width: 768px) {
     .title{
         margin-bottom: 0;
@@ -238,6 +249,11 @@ s
 
     .navbar{
         display: none;
+    }
+
+    .about {
+        padding-right: 2em;
+        padding-left: 2em;
     }
     
 }
