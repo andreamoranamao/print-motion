@@ -4,11 +4,13 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+
 }
 
 body{
     text-align: center;
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .header {
@@ -21,8 +23,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 63px;
-    background: #000;
+    height: 50px;
+    background: #FFF;
     position: fixed;
     width: 100%;
     z-index: 100s;
@@ -30,8 +32,8 @@ body{
 
 .navbar{
     display: flex;
-    margin-right: 500px;
-    align-items: end;
+    padding-right: 20 px;
+    align-items: center;
 
 }
 
@@ -44,23 +46,24 @@ body{
     color: black;
     text-transform: uppercase;
     font-size: 12px;
-    font-family:"Monaco", 'Courier New', Courier, monospace ;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 
 }
 
 .navbar a {
     display: block;
     padding: 20px 20px;
-    color: black;
+    color: rgb(94, 94, 94);
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 10px;  
+    font-size: 12px;  
     text-align: center;
-    font-family:"Monaco",'Courier New', Courier, monospace;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 
 .navbar a:hover{
     background: #F3F4F9;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .header {
@@ -76,9 +79,11 @@ body{
 }
 
 .title{
+    margin-top: 80px;
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: 600;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
     
     color: #000;
     padding: .5em;
@@ -87,66 +92,74 @@ body{
 p1{
     margin-bottom: 40px;
     font-size: 16px;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 
 p2{
     margin-bottom: 40px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     width: auto;
     height: auto;
     text-align: center;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 p3{
     margin-bottom: 40px;
+    
     font-size: 16px;
-    color: #fff;
+    color: black;
     width: auto;
     height: auto;
     text-align: center;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 
 }
 p4{
     margin-bottom: 40px;
     font-size: 16px;
-    color: #fff;
+    color:black;
     width: auto;
     height: auto;
     text-align: center;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 p5{
     margin-bottom: 40px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     width: auto;
     height: auto;
     text-align: center;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 p6{
     margin-top: 2em;
     margin-bottom: 40px;
     font-size: 16px;
-    color: #fff;
+    color: white;
     width: auto;
     height: auto;
     text-align: center;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 
 .btn{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #4a73ec;
-    color: white;
+    border: 2px solid #508bc2;
+    color: #508bc2;
     text-decoration: none;
-    background: #4a73ec;
-    border-radius: 5px;
+    background: #FFF;
+    border-radius: 50px;
 }
 
 .btn:hover{
-    background: none;
+    background: #508bc2;
+    color: #FFF;
     
 }
 
@@ -170,7 +183,7 @@ p6{
 }
 
 .sau{
-    padding: 30px;
+    padding: 70 px;
     background: #FFF;
     height:auto;
 }
@@ -181,16 +194,19 @@ p6{
     flex-wrap: wrap;
     text-align: center;
     
+
+    
 }
 
 .box-container .box {
     height: 15rem;
-    width: 17rem;
-    background: #101010;
+    width: 40 rem;
+    background: #e8e7e7;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 ,3rem 5rem rgba(0, 0, 0, .5);
     margin: 2rem;
+    
 }
 
 .box-container .box i{
@@ -200,16 +216,17 @@ p6{
     text-align: center;
     border-radius: 50%;
     color: white;
-    background: #4a73ec;
+    background: #FFF;
     font-size: 2rem;
     margin: 5rem 5rem;
-s
+
 }
 
 .box-container .box h3{
     line-height: 3rem;
     font-size: 20px;
     color: #000;
+    
 }
 
 .box-container .box {
@@ -217,29 +234,37 @@ s
     padding: 0 5px;
 }
 
+hr.rounded{
+    border-top: 2px solid #e4e3e3;
+    border-radius: 5px;
+}
+
 .about {
-    background: #363636;
+    background: #FFF;
     padding-right: 10em;
     padding-left: 10em;
     height: auto;
+    text-align: left;
 }
 
-.price{
-    background: #171717;
+.abs{
+    background: #FFF;
     background-attachment: fixed;
     background-size: cover;
-    text-align: center;
+    text-align: left;
+   
 }
 
 .contact {
-    padding-top: 20px;
-    background: #363636;
+    padding-top: 10px;
+    background: #d9d9d9;
     padding-bottom: 5em;
+   
     
 }
 
 #mailto {
-    color: white;
+    color: rgb(94, 94, 94);
 }
 
 @media (max-width: 768px) {
