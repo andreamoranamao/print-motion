@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     font: 'San Francisco', Helvetica, Arial, san-serif;
 
 }
@@ -79,19 +79,19 @@ body{
 }
 
 .title{
-    margin-top: 80px;
-    margin-bottom: 40px;
-    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-size: 60px;
     font-weight: 600;
     font: 'San Francisco', Helvetica, Arial, san-serif;
     
-    color: #000;
+    color: #508bc2 ;
     padding: .5em;
 }
 
 p1{
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     text-align: left;
     font: 'San Francisco', Helvetica, Arial, san-serif;
@@ -99,7 +99,7 @@ p1{
 
 p2{
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     width: auto;
     height: auto;
@@ -109,7 +109,7 @@ p2{
 p3{
     margin-bottom: 40px;
     
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     width: auto;
     height: auto;
@@ -119,7 +119,7 @@ p3{
 }
 p4{
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color:black;
     width: auto;
     height: auto;
@@ -128,7 +128,7 @@ p4{
 }
 p5{
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     width: auto;
     height: auto;
@@ -136,10 +136,10 @@ p5{
     font: 'San Francisco', Helvetica, Arial, san-serif;
 }
 p6{
-    margin-top: 2em;
+    margin-top: 0.5em;
     margin-bottom: 40px;
     font-size: 16px;
-    color: white;
+    color: rgb(94, 94, 94);
     width: auto;
     height: auto;
     text-align: center;
@@ -179,12 +179,12 @@ p6{
     align-items: center;
     padding-left: 5em;
     padding-right: 5em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .sau{
     padding: 70 px;
-    background: #FFF;
+    background: #f8f6f6;
     height:auto;
 }
 
@@ -200,7 +200,7 @@ p6{
 
 .box-container .box {
     height: 15rem;
-    width: 40 rem;
+    width: 20rem;
     background: #e8e7e7;
     text-align: center;
     border-radius: 1rem;
@@ -240,7 +240,7 @@ hr.rounded{
 }
 
 .about {
-    background: #FFF;
+    background: #f8f6f6;
     padding-right: 10em;
     padding-left: 10em;
     height: auto;
@@ -248,7 +248,7 @@ hr.rounded{
 }
 
 .abs{
-    background: #FFF;
+    background: #f8f6f6;
     background-attachment: fixed;
     background-size: cover;
     text-align: left;
@@ -256,9 +256,9 @@ hr.rounded{
 }
 
 .contact {
-    padding-top: 10px;
-    background: #d9d9d9;
-    padding-bottom: 5em;
+   
+    background: #e4e3e3;
+    padding-bottom: 2em;
    
     
 }
